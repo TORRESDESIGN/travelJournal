@@ -3,19 +3,19 @@
 export default [
     {
         id: 1,
-        name: "Tacoma",
-        image: "katie-zaferes.png",
-        description: "dope",
+        name: "puerto vallarta, MX",
+        image: "puertoV.jpg",
+        description: "Puerto Vallarta is defined by the natural charm of its beaches embraced by the Sierra Madre mountains; the essence of its culture, gastronomy and traditions; and the warmth and hospitality of being welcomed like a friend. This magical destination has an authentic Mexican taste and spirit.",
     },
     {
         id: 2,
-        name: "Seattle",
+        name: "Vancouver, BC",
         image: "wedding-photography.png",
         description: "dope"7,
     },
     {
         id: 3,
-        name: "Spokane",
+        name: "Austin, TX",
         image: "d",
         description: "dope",
     }
