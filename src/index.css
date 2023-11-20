@@ -19,10 +19,15 @@ p {
   color: #ffff;
   font-weight: 500;
 }
-
 .nav-bar > i {
   padding-right: 7px;
   font-size: 24px;
+}
+.card {
+  max-width: 495px;
+}
+.card-profile {
+  max-width: 125px;
 }
 /*
 body {
