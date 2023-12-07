@@ -9,6 +9,16 @@ body {
 p {
   font-size: 15px;
 }
+h2 {
+  font-size: 25px;
+  line-height: 0px;
+}
+h4 {
+  font-size: 15px;
+}
+.title {
+  font-weight: 200;
+}
 
 .nav-bar {
   background: #F55A5A;
@@ -25,9 +35,23 @@ p {
 }
 .card {
   max-width: 495px;
+  max-height: 208px;
+  background: salmon;
+  margin: auto;
+  margin-top: 23px;
+  display: flex;
+  padding: 19px 17px;
 }
 .card-profile {
-  max-width: 125px;
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+  margin-right: 19px;
+}
+.card-text {
+  width: 345px;
+  height: 168px;
+  background: yellow;
 }
 /*
 body {
