@@ -7,14 +7,19 @@ body {
   font-family: Inter;
 }
 p {
-  font-size: 15px;
+  font-size: 11px;
+  line-height: 150%;
+  font-weight: 400;
 }
-h2 {
+h1 {
   font-size: 25px;
   line-height: 0px;
 }
-h4 {
+h2 {
   font-size: 15px;
+}
+h3 {
+  font-size: 11px;
 }
 .title {
   font-weight: 200;
@@ -36,7 +41,6 @@ h4 {
 .card {
   max-width: 495px;
   max-height: 208px;
-  background: salmon;
   margin: auto;
   margin-top: 23px;
   display: flex;
@@ -47,11 +51,39 @@ h4 {
   height: 168px;
   object-fit: cover;
   margin-right: 19px;
+  border-radius: 5px;
 }
 .card-text {
   width: 345px;
   height: 168px;
-  background: yellow;
+  /*background: yellow;*/
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-top: 19px;
+}
+.card-header > a {
+  font-size: 11px;
+}
+.card-header > i {
+  font-size: 11px;
+}
+.fa-location-dot {
+  color: #F55A5A;
+}
+.country {
+  margin: 0 12px 0 4px;
+  font-weight: 400;
+}
+.city {
+  margin: 7px 0 7px 0;
+  font-weight: 700;
+  line-height: normal;
+}
+.date {
+  font-weight: 700;
+  line-height: normal;
 }
 /*
 body {
